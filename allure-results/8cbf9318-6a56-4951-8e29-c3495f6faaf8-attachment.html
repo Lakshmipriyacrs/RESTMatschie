@@ -1,0 +1,33 @@
+<div>POST to https://dev74700.service-now.com/api/now/v2/table/incident</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;number&quot;: &quot;INC10000201&quot;,
+    &quot;category&quot;: &quot;network&quot;,
+    &quot;state&quot;: &quot;3&quot;,
+    &quot;short_description&quot;: &quot;Lambok Creation&quot;,
+    &quot;description&quot;: &quot;Automation&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://dev74700.service-now.com/api/now/v2/table/incident&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;number&quot;: &quot;INC10000201&quot;,
+    &quot;category&quot;: &quot;network&quot;,
+    &quot;state&quot;: &quot;3&quot;,
+    &quot;short_description&quot;: &quot;Lambok Creation&quot;,
+    &quot;description&quot;: &quot;Automation&quot;
+}&#39;
+</div>
